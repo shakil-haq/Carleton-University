@@ -1,0 +1,41 @@
+body { font-family: Arial, sans-serif; font-size: 12px; margin: 0; background: #eee; color: #333; }
+.main-container { max-width: 1000px; margin: 0 auto; background: white; border-top: 3px solid #d11218; min-height: 100vh; }
+.header { background: #d11218; color: white; padding: 12px 15px; }
+.cu-title { font-size: 20px; font-weight: bold; }
+.central-title { font-size: 14px; margin-left: 5px; }
+
+.utility-nav { text-align: right; padding: 5px 15px; font-size: 10px; border-bottom: 1px solid #ccc; background: #fff; }
+.utility-nav a { color: #d11218; text-decoration: none; margin: 0 5px; }
+
+.content-wrapper { padding: 15px 25px; }
+.tabs-container { display: flex; margin-bottom: 25px; }
+.tab { padding: 6px 18px; font-weight: bold; border-radius: 4px 4px 0 0; margin-right: 3px; font-size: 11px; }
+.active { background: #d11218; color: white; }
+.inactive { background: #777; color: white; }
+
+.page-title { font-size: 24px; font-weight: normal; margin-top: 10px; }
+.student-info-meta { text-align: right; font-size: 11px; margin-top: -35px; margin-bottom: 30px; }
+
+.instr-text { font-size: 11px; margin-bottom: 12px; line-height: 1.4; max-width: 900px; }
+.form-row { margin: 20px 0 10px 0; display: flex; align-items: center; }
+.form-row label { font-weight: bold; width: 110px; }
+#termSelect { padding: 2px; font-size: 12px; }
+#submitBtn { padding: 2px 12px; margin-top: 10px; cursor: pointer; background: #efefef; border: 1px solid #999; border-radius: 3px; }
+
+.hidden { display: none; }
+.red-divider { border: 0; border-top: 1px solid #d11218; margin: 30px 0 15px 0; }
+
+.info-table, .grades-table { width: 100%; border-collapse: collapse; margin-top: 10px; margin-bottom: 25px; }
+.info-table td, .grades-table td, .grades-table th { border: 1px solid #ccc; padding: 4px 6px; text-align: left; }
+.gray-head { background: #ccc; }
+.light-gray { background: #eee; }
+.grades-table th { background: #ccc; font-size: 11px; font-weight: bold; }
+
+.red-link { color: #d11218; text-decoration: none; font-size: 11px; border-bottom: 1px solid transparent; }
+.red-link:hover { border-bottom: 1px solid #d11218; }
+
+.holds-link { text-align: center; color: #d11218; margin: 20px 0; font-size: 13px; }
+.holds-link a { color: #d11218; text-decoration: none; }
+
+.footer { font-size: 11px; padding: 10px 0 30px 0; color: #333; line-height: 1.6; }
+h3 { font-size: 17px; font-weight: normal; margin-top: 25px; }
