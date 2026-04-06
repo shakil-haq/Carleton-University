@@ -1,3 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Carleton Central</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
 <div class="main-container">
   <header class="header">
     <div class="logo-area">
@@ -25,8 +34,7 @@
     </div>
 
     <div id="selection-view">
-      <p class="instr-text">Select a term from the list below to view your institutional grades for that term. The term becomes available for selection once the first grade is entered for the term. If you cannot select a term, you have no grades available at this time.</p>
-      <p class="instr-text">Please note: Non-institutional credits (e.g. transfers on admission, University of Ottawa Exchange, Carleton international exchange) will not be shown here.</p>
+      <p class="instr-text">Select a term from the list below to view your institutional grades for that term.</p>
       
       <div class="form-row">
         <label>Select a Term:</label>
@@ -43,26 +51,11 @@
     </div>
 
     <div id="grades-view" class="hidden">
-      <hr>
-      <p class="instr-text">Below you will find your institutional grades for the term selected. Only the courses that have been graded will be displayed. If a class does not appear on your list, your grade has yet to be submitted.</p>
-      <p class="instr-text">Please note: Non-institutional credits (e.g. transfers on admission, University of Ottawa Exchange grades, Carleton international exchange courses) will not be shown here.</p>
-      
-      <h3>Student Information</h3>
-      <table class="info-table">
-        <tr class="gray-head"><td colspan="2"><strong>Current Program</strong></td></tr>
-        <tr class="light-gray"> <td colspan="2"><strong>Bachelor of Info. Technology</strong></td></tr>
-        <tr><td><strong>Level:</strong></td><td>Undergraduate</td></tr>
-        <tr><td><strong>Program:</strong></td><td>Network Technology</td></tr>
-        <tr><td><strong>Admit Term:</strong></td><td>Fall 2024 (September-December)</td></tr>
-        <tr><td><strong>Major:</strong></td><td>BIT: Network Technology</td></tr>
-        <tr><td><strong>Academic Standing:</strong></td><td>Eligible to Continue</td></tr>
-      </table>
-
       <h3>Undergraduate Coursework</h3>
       <table class="grades-table">
         <thead>
           <tr>
-            <th>CRN</th><th>Subject</th><th>Course</th><th>Section</th><th>Course Title</th><th>Campus</th><th>Final Grade</th><th>Attempted</th><th>Earned</th><th>GPA Hours</th><th>Quality Points</th>
+            <th>CRN</th><th>Subject</th><th>Course</th><th>Section</th><th>Course Title</th><th>Campus</th><th>Final Grade</th>
           </tr>
         </thead>
         <tbody id="grades-tbody"></tbody>
@@ -71,12 +64,12 @@
       <a href="#" id="resetBtn" class="red-link">Select another Term</a>
     </div>
 
-    <hr class="red-divider">
-    <div class="holds-link">[ <a href="#">View Holds</a> ]</div>
-    
     <footer class="footer">
-      <strong>RELEASE: 8.7.1</strong><br>
-      © 2026 Ellucian Company L.P. and its affiliates.
+      © 2026
     </footer>
   </div>
 </div>
+
+<script src="script.js"></script>
+</body>
+</html>
